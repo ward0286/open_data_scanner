@@ -1,0 +1,12 @@
+dataclasses
+datetime
+tqdm
+urllib3
+validators
+pandas
+colorama
+fuzzywuzzy
+ratelimit
+requests
+selenium
+python-Levenshtein

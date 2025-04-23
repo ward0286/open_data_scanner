@@ -11,9 +11,9 @@ from typing import List, NoReturn, Dict
 import warnings
 from colorama import Fore
 
-from .constants import REGISTRY_BASE_URL
-from .tools import RequestsDataCatalogue
-from .inventories import Inventory
+from open_data_scanner.constants import REGISTRY_BASE_URL
+from open_data_scanner.tools import RequestsDataCatalogue
+from open_data_scanner.inventories import Inventory
 
 
 warnings.filterwarnings('ignore', category=FutureWarning)

@@ -93,8 +93,9 @@ class Inventory:
 
             record['frequency'] = dataset['frequency']
             if not isinstance(record['frequency'], str):
-                print(f'Error for id {record['id']}:',
-                      f'frequency is {record['frequency']} (not str)')
+                print(f"Error for id {record['id']}:",
+      f"frequency is {record['frequency']} (not str)")
+
 
             # 'modified', 'up_to_date', 'official_lang', 'open_formats' and 'spec' 
             # will be added to the record later on
@@ -503,7 +504,7 @@ class Inventory:
             msg = f'Error exporting {df_name} inventory to {filename}:\n{e}\n'
             print(Fore.RED + msg + Fore.RESET)
         else:
-            msg = f'{
-                df_name.capitalize()
-            } inventory was successfully exported to {filename}.'
+            msg = (
+    f"{df_name.capitalize()} inventory was successfully exported to {filename}."
+)
             print(Fore.GREEN + msg + Fore.RESET)
